@@ -12,8 +12,8 @@ module.exports = defineConfig({
    defaultCommandTimeout: 20000,
    env: {
       baseUrl: process.env.BASE_URL,
-      username: process.env.USERNAMESUPERADMIN,
-      password: process.env.PASSWORDSUPERADMIN
+      username: process.env.VALID_USERNAME,
+      password: process.env.VALID_PASSWORD
    },
    e2e: {
       setupNodeEvents(on, config) {
